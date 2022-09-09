@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/png" href="./images/favicon-16x16.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#5A004B" />
+    <meta
+      name="description"
+      content="Modern inventory that saves your data in local storage"
+    />
+    <link rel="apple-touch-icon" href="./images/logo192x192.png" />
+    <link rel="manifest" href="./manifest.json" />
+    <title>My inventory</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <script>
+      if('serviceWorker' in navigator){
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('./serviceworker.js')
+            .then((reg) => console.log("Success", reg.scope))
+            .catch(err => console.log("Failure", err))
+        })
+      }
+    </script>
+  </body>
+</html>

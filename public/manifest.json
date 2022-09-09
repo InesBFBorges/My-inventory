@@ -1,0 +1,20 @@
+{
+  "short_name": "My inventory",
+  "name": "My inventory PWA",
+  "icons": [
+    {
+      "src": "/images/logo512x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "/images/logo192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#E0CA00",
+  "background_color": "#5A004B"
+}
