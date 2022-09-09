@@ -2,7 +2,7 @@
 
 This project was made by Inês Borges.
 The technologies used for this app were React.js and CSS.
-This app is a PWA(Progressive Web App) meaning it runs on the browser and you can open it on the browser but you alse can install it as a native app.
+This app is a PWA(Progressive Web App) meaning it runs on the browser and you can open it on the browser but you also can install it as a native app.
 
 ## Features of the app
 
